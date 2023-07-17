@@ -9,7 +9,7 @@ minimal sublime IDE support.
 Create a local syntax directory for the `bat` tool, if needed
 
 ```bash
-$ mkdir $(bat --config-dir)/syntaxes
+$ mkdir -p $(bat --config-dir)/syntaxes
 $ cd $(bat --config-dir)/syntaxes
 ```
 
